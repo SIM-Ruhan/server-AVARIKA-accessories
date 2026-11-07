@@ -1,6 +1,7 @@
-import { connectDatabase } from "../src/db.js";
+
 import { createApp } from "../src/app.js";
 import { validateAuthConfig } from "../src/auth.js";
+import { connectDatabase } from "../src/db.js";
 
 let appPromise;
 
